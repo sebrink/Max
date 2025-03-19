@@ -26,7 +26,7 @@ global_uri = "/db/neo4j/tx/commit" if (not os.environ.get('NEO4J_URI', False)) e
 
 # option to hardcode creds or put them in environment variables, these will be used as the username and password "defaults"
 global_username = 'neo4j' if (not os.environ.get('NEO4J_USERNAME', False)) else os.environ['NEO4J_USERNAME']
-global_password = 'bloodhound' if (not os.environ.get('NEO4J_PASSWORD', False)) else os.environ['NEO4J_PASSWORD'] 
+global_password = 'bloodhoundcommunityedition' if (not os.environ.get('NEO4J_PASSWORD', False)) else os.environ['NEO4J_PASSWORD'] 
 
 def do_test(args):
 
